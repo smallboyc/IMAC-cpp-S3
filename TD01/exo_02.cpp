@@ -4,6 +4,7 @@
 #include <utility>
 
 bool is_voyelle(char &c) {
+  c = std::tolower(c);
   return (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u' || c == 'y');
 }
 
