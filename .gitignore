@@ -1,7 +1,6 @@
-build/
-bin/
-.vs/
-.vscode/
-.cache/
-
+**/build/
+**/bin/
+**/.vs/
+**/.vscode/
+**/.cache/
 .DS_Store
